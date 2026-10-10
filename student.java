@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 class Student {
-    pubc static void main(String[] args) {
+    public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
 
@@ -12,13 +12,13 @@ class Student {
         System.out.println("===== STUDENT MANAGEMENT SYSTEM =====");
 
         System.out.print("Enter Student ID: ");
-        id = sc.nextne();
+        id = sc.nextLine();
 
         System.out.print("Enter Student Name: ");
-        name = sc.nextne();
+        name = sc.nextLine();
 
         System.out.print("Enter Department: ");
-        department = sc.nextne();
+        department = sc.nextLine();
 
         System.out.print("Enter Attendance: ");
         attendance = sc.nextDouble();
