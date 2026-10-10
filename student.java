@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 class Student {
-    public static void main(String[] args) {
+    pubc static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
 
@@ -12,13 +12,13 @@ class Student {
         System.out.println("===== STUDENT MANAGEMENT SYSTEM =====");
 
         System.out.print("Enter Student ID: ");
-        id = sc.nextLine();
+        id = sc.nextne();
 
         System.out.print("Enter Student Name: ");
-        name = sc.nextLine();
+        name = sc.nextne();
 
         System.out.print("Enter Department: ");
-        department = sc.nextLine();
+        department = sc.nextne();
 
         System.out.print("Enter Attendance: ");
         attendance = sc.nextDouble();
@@ -51,3 +51,17 @@ class Student {
         }
         else {
             System.out.println("Grade      : F");
+        }
+
+        if (attendance >= 75 && marks >= 40) {
+            System.out.println("Result     : PASS");
+        }
+        else {
+            System.out.println("Result     : FAIL");
+        }
+
+        System.out.println("==============================");
+
+        sc.close();
+    }
+}
